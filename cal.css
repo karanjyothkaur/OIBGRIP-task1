@@ -1,0 +1,96 @@
+.container{
+    background: lightsteelblue;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+body{
+    background-color: maroon;
+}
+h1{
+    color: pink;
+    font-size: 50px;
+    text-justify: newspaper;
+    text-align: center;
+}
+.textview
+{
+    display: inline-block;
+    margin: 2px;
+    width: 270px;
+    height: 42px;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 10px;
+    border:none;
+}
+.equalButton{
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 60px;
+    height: 90px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.button{
+    cursor: pointer;
+    display: inline-block;
+    margin: 2px;
+    width: 60px;
+    height: 42px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #FFF;
+    text-shadow: -1px -1px 0px #7f1e00;
+    background-color: black;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AF5700;
+    border-left: 2px solid #AE6800;
+    outline: none;
+}
+.equalbutton{
+    border-radius: 10px;
+    color: #FFF;
+    margin: 2px;
+    width: 60px;
+    height: 100px;
+    background-color: Lightsalmon;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AF5700;
+    border-left: 2px solid #AE5700;
+    outline:none;
+}
+.button:active,.allclearButton:active,.eqaulbutton:active{
+    background-color: rgb(128, 62, 0);
+    box-shadow: 0 3px rgb(102, 102, 102);
+    transform: rotateY(4px);
+}
+.button:hover,.equalbutton:hover{
+    background-color: rgb(20,21,22);
+    box-shadow: 0px 4px 1px #eec698;
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #AF5700;
+    border-left: 2px solid #AE5700;
+}
+.allclearButton{
+    border-radius: 10px;
+    color: #FFF;
+    margin: 2px;
+    width: 50px;
+    height: 40px;
+    text-shadow: -1px -1px 0px #6f3600;
+    background-color: rgb(255, 99, 71);
+    border-top: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom:  2px solid #af4f00;
+    border-left: 2px solid #ae6300;
+    outline: none;
+}
